@@ -69,9 +69,11 @@ Then, in Configuration -> Environment Variables, make sure you setup environment
 ## Testing
 You can test the lambda by configuring test event or just creating EC2 instance and then changing the state of EC2. If it works, you'll see notification in your email, SMS, and slack channel.
 
-See this video for demo.
-
 ## Next Step
-1. Convert manual step mentioned in this README to using Terraform, AWS SAM, or Serverless framework.
+1. Convert manual step mentioned in this README to using Terraform, AWS SAM, or Serverless framework (Infra as Code).
 2. Add another AWS event in Event Bridge but ensuring the Input Transformer will output JSON with content, CloudProvider, and Subject attributes.
 3. Deploy the same function to another cloud provider e.g. GCP.
+
+## How to Contribute
+1. As this is public repo, feel free to submit pull request in case you'd like to contribute to this project.
+2. The contribution could include: README update, converting this manual step into Infra as Code, adding another AWS event and configuring the proper Input Transformer, etc. 
